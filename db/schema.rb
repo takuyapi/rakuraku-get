@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2021_02_23_113122) do
     t.string "name", null: false
     t.integer "price", null: false
     t.text "description", null: false
+    t.text "origin", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["store_id"], name: "index_foods_on_store_id"
